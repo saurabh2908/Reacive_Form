@@ -10,7 +10,7 @@ import { Component, OnInit } from '@angular/core';
 export class AboutComponent implements OnInit {
   
   regiterForm:FormGroup;
-  blackListedUsers:string[] = ["tim","kim","rim","sim"];
+  blackListedUsers:string[] = ["Mayank harbola","kim","rim","sim"];
 
   ngOnInit(){
       this.regiterForm = new FormGroup({
