@@ -30,7 +30,7 @@ export class AboutComponent implements OnInit {
   if(this.blackListedUsers.indexOf(control.value)!==-1){
     return {'blackListed':true};
   }
-  return null;  // if validation is pass , return null
+  return null; 
 }
 
 }
